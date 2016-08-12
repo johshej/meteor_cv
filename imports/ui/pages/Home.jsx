@@ -23,7 +23,7 @@ function Home() {
 	    Johannes Hejslet Jørgensen
 	</div>
 	<p className="flow-text section">
-	    Denne app er udviklet af Johannes Hejslet Jørgensen med Javascript frameworket <a href="https://www.meteor.com">Meteor</a> og Facebooks <a href="https://facebook.github.io/react/">React</a>. Det er stylet med Googles <a href="http://materializecss.com/about.html">Material Design</a>.
+	    Denne app er udviklet af Johannes Hejslet Jørgensen med Javascript frameworket <a target="_blank" href="https://www.meteor.com">Meteor</a> og Facebooks <a target="_blank" href="https://facebook.github.io/react/">React</a>. Det er stylet med Googles <a target="_blank" href="http://materializecss.com/about.html">Material Design</a>.
 	</p>
 	<div className="divider"></div>
 	<p className="flow-text section">
