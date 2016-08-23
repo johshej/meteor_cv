@@ -1,5 +1,5 @@
 import Home from '../ui/pages/Home.jsx';
-//import Contact from '../ui/components/Contact.jsx';
+import Contact from '../ui/components/Contact.jsx';
 import SkillsListWrapper from '../ui/pages/SkillsListWrapper.jsx';
 import NotFound from '../ui/pages/NotFound.jsx';
 import Register from '../ui/components/Login/Register.jsx';
@@ -17,11 +17,10 @@ if (Meteor.userId()) {
 	    path: '/skills',
 	    component: SkillsListWrapper
 	},
-/*	{
+	{
 	    path: '/contact',
 	    component: Contact
 	},
-*/
 	{
 	    path: '/logout',
 	},

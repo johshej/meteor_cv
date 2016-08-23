@@ -41,13 +41,13 @@ export default class Header extends React.Component {
 			<li><a href="/">Om denne App</a></li>
 			<li><a onClick={this.onClick} href="#">Log ud</a></li>
 			<li><a href="/skills">Erfaringer</a></li>
-{/*			<li><a href="/contact">Kontakt</a></li> */}
+			<li><a href="/contact">Kontakt</a></li>
 		    </ul>
 		    <ul className="side-nav" id="mobile-demo">
 			<li><a href="/">Om denne App</a></li>
 			<li><a onClick={this.onClick} href="#">Log ud</a></li>
 			<li><a href="/skills">Erfaringer</a></li>
-{/*			<li><a href="/contact">Kontakt</a></li> */}
+			<li><a href="/contact">Kontakt</a></li>
 		    </ul>
 		</div>
 	    );

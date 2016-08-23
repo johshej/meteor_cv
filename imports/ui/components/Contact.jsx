@@ -11,15 +11,14 @@ export default class Contact extends React.Component {
 	var comment = ele.find('#comment').val();
 	
 	console.log(name,email,comment);
-	Materialize.toast ("Jo jo " + name, 4000);
+	Materialize.toast ("Email afsendt. Tak for din henvendelse " + name, 7000);
 
 	// https://docs.meteor.com/api/email.html#Email-send
-	Meteor.call('sendEmail', {
-	    to: 'johannes@hejslet.dk',
-	    from: email,
-	    subject: 'Kommentar fra CV App',
-	    text: comment
-	});
+	Meteor.call('sendEmail',
+		    'johannes@hejslet.dk',
+		    email,
+		    'Kommentar fra CV App',
+		    comment);
     }
     
     render () {

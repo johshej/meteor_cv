@@ -19,4 +19,6 @@ Show your skills list to selct users.
 
 ####TODO
 
-Lots...
+- Send email from Contact page.
+- Split skills page into more components.
+- Textarea on contact page.
