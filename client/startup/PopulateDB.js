@@ -25,7 +25,7 @@ if (Skills.find().count() < 1) {
 
     SkillLevels.insert ({
 	Level: 2,
-	Description: 'Anvendt på kunderelaterede projekter dog i mindre grad eller tilbage.'
+	Description: 'Anvendt på kunderelaterede projekter dog i mindre grad eller tilbage i tiden.'
     });
 
     SkillLevels.insert ({
@@ -43,6 +43,12 @@ if (Skills.find().count() < 1) {
     Skills.insert ({
 	Skill: 'MySQL',
 	Expirience: '15 års erfaring. Herunder design, videreudvikling og optimering af store komplekse databaser.',
+	Level: 5
+    });
+
+    Skills.insert({
+	Skill: 'Linux',
+	Expirience: '20 års erfaring. Både som server og arbejdsstation. 7 år som serveransvarlig.',
 	Level: 5
     });
 

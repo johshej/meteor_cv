@@ -6,6 +6,7 @@ Show your skills list to selct users.
 - Wellcome page to explain the App.
 - Login page.
 - Skills list.
+- Contact.
 - Not found.
 
 
@@ -19,6 +20,10 @@ Show your skills list to selct users.
 
 ####TODO
 
-- Send email from Contact page.
-- Split skills page into more components.
 - Textarea on contact page.
+
+
+###Bugs
+
+- Menu not working for Android
+- Materializecss font import fails.
