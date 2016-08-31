@@ -20,7 +20,7 @@ Show your skills list to selct users.
 
 ####TODO
 
-- Textarea on contact page.
+- Fix bugs
 
 
 ###Bugs

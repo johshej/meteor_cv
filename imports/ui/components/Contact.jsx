@@ -10,7 +10,6 @@ export default class Contact extends React.Component {
 	var name = ele.find('#name').val();
 	var comment = ele.find('#comment').val();
 	
-	console.log(name,email,comment);
 	Materialize.toast ("Email afsendt. Tak for din henvendelse " + name, 7000);
 
 	// https://docs.meteor.com/api/email.html#Email-send
@@ -18,7 +17,7 @@ export default class Contact extends React.Component {
 		    'johannes@hejslet.dk',
 		    email,
 		    'Kommentar fra CV App',
-		    comment);
+		    'Navn: ' + name + '\n' + 'Email: ' + email + '\n\n' + 'Kommentar\n' + comment);
     }
     
     render () {
@@ -40,8 +39,8 @@ export default class Contact extends React.Component {
 		    </div>
 		    <div className="row">
 			<div className="input-field col s12">
-			    <input id="comment" ref="comment" type="text" className="validate" />
-			    <label htmlFor="comment">Kommentar</label>
+			    <textarea id="comment" ref="comment" className="materialize-textarea validate"></textarea>
+			    <label for="comment">Kommentar</label>
 			</div>
 		    </div>
 		    
