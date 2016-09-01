@@ -1,9 +1,9 @@
 Accounts.createUser({
-    username: 'nordlys',
-    email : 'hello@nordlys.io',
-    password : 'nordlys',
+    username: 'minbruger',
+    email : 'email@example.com',
+    password : 'minkode',
     profile  : {
-	fullname: 'Nordlys'
+	fullname: 'Mit navn'
     }    
 }, function (error) {
     if (error) {
