@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
 		    </div>
 		    
 		    <div className="row">
-			<button className="waves-effect waves-light btn btn-block">Submit</button>
+			<button className="waves-effect waves-light btn btn-block">Send</button>
 		    </div>
 		</form>
 	    </div>
